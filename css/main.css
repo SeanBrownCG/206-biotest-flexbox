@@ -109,16 +109,37 @@ body {
   background-color: #2E2E2E;
 }
 
+header, footer {
+  color: #ffffff;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.wrapper h1 {
+  color: #ffffff;
+}
+
+.wrapper h1 span {
+  font-family: 'lora', sans-serif;
+  color: #DBDBDB;
+  text-decoration: underline;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #ffffff;
   line-height: 1.5em;
   font-size: 1.3em;
   height: 300px;
@@ -131,8 +152,8 @@ body {
 .div-2 {
   padding-left: 1.5em;
   padding-right: 1.5em;
-  border-left: 0.1em solid #fff;
-  border-right: 0.1em solid #fff;
+  border-left: 0.05em solid #DBDBDB;;
+  border-right: 0.05em solid #DBDBDB;
 }
 
 
